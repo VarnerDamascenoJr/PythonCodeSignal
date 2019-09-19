@@ -11,7 +11,8 @@ def diagonalDifference(arr):
     soma2 = 0
     while k >= 0 and l < len(arr):
         soma2 += arr[k][l]
-
+            k-=1
+            l+-1
         return abs(soma - soma2)
 
 
